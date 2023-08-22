@@ -1,0 +1,9 @@
+$bubble: darken($color: #e7feff, $amount: 1.5);
+$headerFont: 'Dancing Script', cursive;
+$baseFont: 'Explora', cursive;
+$captionFont: 'Playfair Display', serif;
+
+
+h1 {
+    font-family: $headerFont;
+}
