@@ -7,3 +7,19 @@ $captionFont: 'Playfair Display', serif;
 h1 {
     font-family: $headerFont;
 }
+
+h2 {
+    font-family: $captionFont;
+}
+
+h3 {
+    font-family: $captionFont;
+}
+
+p {
+    font-family: $baseFont;
+}
+
+a {
+    font-family: $captionFont;
+}
