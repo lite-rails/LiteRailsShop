@@ -2,24 +2,34 @@ $bubble: darken($color: #e7feff, $amount: 1.5);
 $headerFont: 'Dancing Script', cursive;
 $baseFont: 'Explora', cursive;
 $captionFont: 'Playfair Display', serif;
+$yellow: #fdff00;
+$white: whitesmoke;
+$black: #080808;
+
+
 
 
 h1 {
     font-family: $headerFont;
+    color: $white;
 }
 
 h2 {
     font-family: $captionFont;
+    color: $yellow;
 }
 
 h3 {
     font-family: $captionFont;
+    color: $yellow;
 }
 
 p {
     font-family: $baseFont;
+    color: $white;
 }
 
 a {
     font-family: $captionFont;
+    color: $yellow;
 }

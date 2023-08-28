@@ -283,20 +283,29 @@ a {
 
 h1 {
   font-family: "Dancing Script", cursive;
+  color: whitesmoke;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
+  color: #fdff00;
 }
 
 h3 {
   font-family: "Playfair Display", serif;
+  color: #fdff00;
 }
 
 p {
   font-family: "Explora", cursive;
+  color: whitesmoke;
 }
 
 a {
   font-family: "Playfair Display", serif;
+  color: #fdff00;
+}
+
+body {
+  background-color: #080808;
 }
