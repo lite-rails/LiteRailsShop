@@ -8,10 +8,21 @@ $black: #080808;
 
 
 
+html {
+    font-size: 125%;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
 
 h1 {
     font-family: $headerFont;
     color: $white;
+    font-size: 5em
 }
 
 h2 {
@@ -32,4 +43,11 @@ p {
 a {
     font-family: $captionFont;
     color: $yellow;
+    font-size: 40rem;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
 }
