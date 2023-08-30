@@ -41,9 +41,17 @@ p {
 }
 
 a {
+    text-decoration: none;
     font-family: $captionFont;
     color: $yellow;
     font-size: 40rem;
+}
+
+a:active, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: black;
+    font-family: $logoFont;
 }
 
 ol, ul {

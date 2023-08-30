@@ -313,6 +313,7 @@ p {
 }
 
 a {
+  text-decoration: none;
   font-family: "Playfair Display", serif;
   color: #fdff00;
   font-size: 40rem;
@@ -346,7 +347,7 @@ ol, ul {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 30px;
-  margin-left: 700%;
+  margin-left: 650%;
 }
 
 .nav li a {
@@ -357,9 +358,37 @@ ol, ul {
 }
 
 .img {
-  margin-left: 50px;
-  padding-top: 50px;
+  margin-top: 50px;
   padding-left: 105%;
+  position: relative;
+}
+
+.img h2 {
+  z-index: 3;
+  position: absolute;
+  bottom: 5%;
+  text-align: center;
+  left: 120%;
+}
+
+.img img {
+  border: 3px solid #fdff00;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 90px;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.i {
+  color: #fdff00;
+  font-size: 30px;
 }
 
 body {
