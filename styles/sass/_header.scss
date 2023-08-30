@@ -25,12 +25,28 @@
     position: relative;
 }
 
-.img h2 {
+// .img a {
+//     z-index: 3;
+//     position: absolute;
+//     bottom: 5%;
+//     text-align: center;
+//     left: 120%;
+//     font-size: 1em;
+// }
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.img i{
+    color: $yellow;
+    font-size: 1em; 
     z-index: 3;
     position: absolute;
     bottom: 5%;
     text-align: center;
-    left: 120%
+    left: 120%;
 }
 
 .img img {
@@ -42,11 +58,7 @@
 
 }
 
-.row {
-    flex-direction: row;
-}
 
-.i {
-    color: $yellow;
-    font-size: 30px;
+a {
+    font-size: 20px;
 }

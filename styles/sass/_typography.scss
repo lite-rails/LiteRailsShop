@@ -1,4 +1,4 @@
-$bubble: darken($color: #e7feff, $amount: 1.5);
+// $bubble: darken($color: #e7feff, $amount: 1.5);
 $headerFont: 'Dancing Script', cursive;
 $baseFont: 'Explora', cursive;
 $captionFont: 'Playfair Display', serif;
@@ -38,20 +38,21 @@ h3 {
 p {
     font-family: $baseFont;
     color: $white;
+    font-size: 30px;
 }
 
 a {
     text-decoration: none;
     font-family: $captionFont;
     color: $yellow;
-    font-size: 40rem;
+    font-size: 1em;
 }
 
 a:active, a:hover, a:focus {
     text-decoration: none;
     outline: none;
-    color: black;
-    font-family: $logoFont;
+    color: (darken($yellow, $amount: 1.5));
+    font-size: 1em;
 }
 
 ol, ul {
