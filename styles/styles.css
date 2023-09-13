@@ -290,7 +290,7 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
   height: 100vh;
-  cursor: url("../../assets/Lightbulb.png"), text;
+  cursor: url("../assets/lightbulb.png"), text;
 }
 
 .wrapper {
@@ -473,13 +473,13 @@ a {
 }
 
 .brandImg {
-  width: 60%;
+  width: 55%;
   height: 50%;
 }
 
 .brandBox h4 {
   text-align: center;
-  margin: 100px 80px;
+  margin: 100px 50px;
   font-size: 2em;
 }
 
@@ -500,6 +500,14 @@ a {
 
 .about {
   margin-top: 10%;
+}
+.about h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.about p {
+  padding-top: 20px;
+  text-align: start;
 }
 
 .products {

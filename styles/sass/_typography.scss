@@ -1,4 +1,3 @@
-// $bubble: darken($color: #e7feff, $amount: 1.5);
 $headerFont: 'Dancing Script', cursive;
 $baseFont: 'Explora', cursive;
 $captionFont: 'Playfair Display', serif;
@@ -17,8 +16,7 @@ body {
     overflow-x: hidden;
     margin: 0 auto;
     height: 100vh;
-    // cursor: url("../assets/Lightbulb.png"), text ;
-    cursor: url('../../assets/Lightbulb.png'), text;
+    cursor: url("../assets/lightbulb.png"), text;
 }
 
 .wrapper {
