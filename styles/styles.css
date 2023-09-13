@@ -285,6 +285,14 @@ html {
   font-size: 125%;
 }
 
+body {
+  background-color: #080808;
+  overflow-x: hidden;
+  margin: 0 auto;
+  height: 100vh;
+  cursor: url("../../assets/Lightbulb.png"), text;
+}
+
 .wrapper {
   max-width: 1400px;
   width: 90%;
@@ -307,6 +315,12 @@ h3 {
   color: #fdff00;
 }
 
+h4 {
+  font-family: "Playfair Display", serif;
+  color: #fdff00;
+  font-weight: 300;
+}
+
 p {
   font-family: "Explora", cursive;
   color: whitesmoke;
@@ -324,7 +338,6 @@ a:active, a:hover, a:focus {
   text-decoration: none;
   outline: none;
   color: #f5f700;
-  font-size: 1em;
 }
 
 ol, ul {
@@ -341,6 +354,7 @@ ol, ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-top: 3%;
 }
 
 .nav ul {
@@ -360,15 +374,17 @@ ol, ul {
 
 .nav li a {
   padding: 5px;
-  font-size: 0.9rem;
+  font-size: 1em;
   font-weight: 400;
   text-align: center;
 }
 
 .img {
   margin-top: 50px;
-  padding-left: 105%;
+  padding-left: 110%;
   position: relative;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .row {
@@ -379,16 +395,7 @@ ol, ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-}
-
-.img i {
-  color: #fdff00;
-  font-size: 1em;
-  z-index: 3;
-  position: absolute;
-  bottom: 5%;
-  text-align: center;
-  left: 120%;
+  margin-left: 50px;
 }
 
 .img img {
@@ -399,11 +406,31 @@ ol, ul {
   padding-bottom: 90px;
 }
 
+.i {
+  color: #fdff00;
+  font-size: 1.2em;
+  z-index: 3;
+  position: absolute;
+  bottom: 6%;
+  text-align: center;
+  left: 125%;
+}
+
+.iB {
+  color: #fdff00;
+  font-size: 1.2em;
+  z-index: 3;
+  position: absolute;
+  bottom: 6%;
+  text-align: center;
+  left: 150%;
+}
+
 a {
   font-size: 20px;
 }
 
-.footer section {
+.footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -411,8 +438,117 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-top: 10%;
+  margin-bottom: 3%;
 }
 
-body {
-  background-color: #080808;
+.owner, p {
+  font-size: 1.2em;
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+a {
+  font-size: 1em;
+}
+
+.rails {
+  margin-top: 10%;
+}
+
+.brandBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.brandImg {
+  width: 60%;
+  height: 50%;
+}
+
+.brandBox h4 {
+  text-align: center;
+  margin: 100px 80px;
+  font-size: 2em;
+}
+
+.button {
+  margin-top: 80px;
+  font-size: 1em;
+  border: 2px solid #fdff00;
+  padding: 10px 30px;
+}
+
+.button:active, .button:hover, .button:focus {
+  margin-top: 80px;
+  font-size: 1em;
+  border: 2px solid #080808;
+  color: #080808;
+  background-color: #fdff00;
+}
+
+.about {
+  margin-top: 10%;
+}
+
+.products {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.productsBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.inventoryContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 3px solid #fdff00;
+  margin: 10px auto;
+  width: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+.inventoryContainer img {
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.inventoryContainer p {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.contact {
+  margin-top: 10%;
 }

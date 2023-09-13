@@ -1,0 +1,35 @@
+.rails {
+    margin-top: 10%;
+}
+
+.brandBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brandImg {
+    width: 60%;
+    height: 50%;
+}
+
+.brandBox h4 {
+    text-align: center;
+    margin: 100px 80px;
+    font-size: 2em;
+}
+
+.button {
+    margin-top: 80px;
+    font-size: 1em;
+    border: 2px solid $yellow;
+    padding: 10px 30px;
+}
+
+.button:active, .button:hover, .button:focus {
+    margin-top: 80px;
+    font-size: 1em;
+    border: 2px solid $black;
+    color: $black;
+    background-color: $yellow;
+}

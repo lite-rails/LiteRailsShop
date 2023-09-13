@@ -12,6 +12,15 @@ html {
     font-size: 125%;
 }
 
+body {
+    background-color: $black;
+    overflow-x: hidden;
+    margin: 0 auto;
+    height: 100vh;
+    // cursor: url("../assets/Lightbulb.png"), text ;
+    cursor: url('../../assets/Lightbulb.png'), text;
+}
+
 .wrapper {
     max-width: 1400px;
     width: 90%;
@@ -35,6 +44,12 @@ h3 {
     color: $yellow;
 }
 
+h4 {
+    font-family: $captionFont;
+    color: $yellow;
+    font-weight: 300;
+}
+
 p {
     font-family: $baseFont;
     color: $white;
@@ -52,7 +67,7 @@ a:active, a:hover, a:focus {
     text-decoration: none;
     outline: none;
     color: (darken($yellow, $amount: 1.5));
-    font-size: 1em;
+    // font-size: 1em;
 }
 
 ol, ul {
