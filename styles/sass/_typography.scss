@@ -1,0 +1,75 @@
+$headerFont: 'Dancing Script', cursive;
+$baseFont: 'Explora', cursive;
+$captionFont: 'Playfair Display', serif;
+$yellow: #fdff00;
+$white: whitesmoke;
+$black: #080808;
+
+
+
+html {
+    font-size: 125%;
+}
+
+body {
+    background-color: $black;
+    overflow-x: hidden;
+    margin: 0 auto;
+    height: 100vh;
+    cursor: url("../assets/lightbulb.png"), text;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-family: $headerFont;
+    color: $white;
+    font-size: 5em
+}
+
+h2 {
+    font-family: $captionFont;
+    color: $yellow;
+}
+
+h3 {
+    font-family: $captionFont;
+    color: $yellow;
+}
+
+h4 {
+    font-family: $captionFont;
+    color: $yellow;
+    font-weight: 300;
+}
+
+p {
+    font-family: $baseFont;
+    color: $white;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: $captionFont;
+    color: $yellow;
+    font-size: 1em;
+}
+
+a:active, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+    color: (darken($yellow, $amount: 1.5));
+    // font-size: 1em;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+    list-style: none;
+}
