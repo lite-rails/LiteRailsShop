@@ -325,6 +325,7 @@ p {
   font-family: "Explora", cursive;
   color: whitesmoke;
   font-size: 30px;
+  line-height: 1.7;
 }
 
 a {
@@ -626,4 +627,21 @@ a {
   margin-bottom: 40px;
   text-align: center;
   padding-top: 20px;
+}
+
+.privacy {
+  text-align: center;
+  margin: 50px 0;
+  color: #fdff00;
+}
+
+.subheading {
+  text-align: start;
+  font-family: "Explora", cursive;
+  margin: 20px 0;
+}
+
+.text {
+  text-align: start;
+  line-height: 1.7;
 }
