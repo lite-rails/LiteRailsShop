@@ -81,12 +81,7 @@
         </section>
         <section class="wrapper contact">
             <div id="contact">
-                <h2>Contact</h2>
-                <div class="column">
-                    <a href="./privacyPolicy.html">Privacy Policy</a>
-                    <a href="./termsConditions.html">Terms & Conditions</a>
-                </div>
-                
+                <h2>Contact</h2> 
                 <form
                          id="contactForm" class="contactForm"
                          action="https://formspree.io/f/xpzgdrjj"
@@ -104,12 +99,22 @@
                          <div class="groupForm">
                             <label class="formLabel" for="address"> Your Address:</label>
                             <input id="address" class="field" type="text" placeholder="Shipping Address" name="address" required>
-                       </div>
+                        </div>
                          <div class="groupForm">
                               <label class="formLabel" for="message">Message</label>
                               <textarea id="message" class="message" placeholder="Your Message" name="message" cols="30"
-                              rows="10" required=></textarea>
+                              rows="10" required></textarea>
                          </div>
+                         <div class="column">
+                            <div class="rows">
+                                <input type="checkbox" required>
+                                <a href="./privacyPolicy.html">Privacy Policy</a>
+                            </div>
+                            <div class="rows">
+                                <input type="checkbox" required>
+                                <a href="./termsConditions.html">Terms & Conditions</a>
+                            </div>
+                        </div>
                          <button class="link" type="submit">Send</button>
                     </form>
 
