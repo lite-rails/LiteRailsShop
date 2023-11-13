@@ -440,7 +440,7 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   margin-top: 10%;
-  margin-bottom: 3%;
+  margin-bottom: 2%;
 }
 
 .owner, p {
@@ -564,6 +564,15 @@ a {
 .contact h2 {
   padding: 10px 80px;
 }
+.contact .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
 .form {
   text-align: center;
@@ -633,6 +642,8 @@ a {
   text-align: center;
   margin: 50px 0;
   color: #fdff00;
+  font-family: "Dancing Script", cursive;
+  font-size: 4em;
 }
 
 .subheading {
@@ -644,4 +655,25 @@ a {
 .text {
   text-align: start;
   line-height: 1.7;
+  margin: 30px 0;
+}
+
+.backButton {
+  margin: 45%;
+  background-color: #080808;
+  color: #fdff00;
+  border: 2px solid #fdff00;
+  font-family: "Explora", cursive;
+  padding: 10px 30px;
+  font-size: 1em;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.backButton:active, .backButton:hover, .backButton:focus {
+  margin-top: 20px;
+  font-size: 1em;
+  border: 2px solid #080808;
+  color: #080808;
+  background-color: #fdff00;
 }
