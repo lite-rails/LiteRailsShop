@@ -1,0 +1,152 @@
+@media(max-width: 1370px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+    }
+    .nav {
+        left: 10px;
+        margin-left: 10px;
+        justify-content: left;
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: 10px;
+        margin-left: 10px;
+    }
+
+    .privacy {
+        margin-top: 100px;
+    }
+
+   
+}
+
+@media(max-width: 1000px) {
+    .productsBox {
+        display: flex;
+        margin-top: 180px;
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+
+    .productsBox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 180px;
+
+        h3 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: .7em;
+        }
+    }
+
+    .inventoryContainer {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid $yellow;
+        margin: 10px auto;
+        width: 50%;
+        align-items: center;
+        padding: 10px;
+        img{
+            width: 100%;
+            height: 100%;
+            padding: 30px 20px;
+            align-content: center;
+            object-fit: contain;
+        }
+    
+        p {
+            align-self: center;
+        }
+        
+    }
+
+    .img {
+        margin-top: 50px;
+        padding-left: 10%;
+        position: relative;
+        align-self: center;
+    }
+
+}
+
+
+@media (max-width: 460px) {
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .img {
+        margin-top: 50px;
+        padding-left: 10%;
+        position: relative;
+        align-self: center;
+    }
+    
+
+    h1 {
+        font-size: 2em;
+    }
+
+    
+
+    .nav {
+        left: 10px;
+        margin-left: 10px;
+        justify-content: left;
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: 10px;
+        margin-left: 10px;
+    }
+
+    .privacy {
+        font-size: 1.5em;
+    }
+
+    .subheading {
+        font-size: 1em;
+    }
+
+    .text {
+        font-size: .7em;
+    }
+
+    .productsBox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 180px;
+
+        h3 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: .5em;
+        }
+    }
+}
