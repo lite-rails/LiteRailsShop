@@ -844,6 +844,18 @@ a {
     -ms-flex-item-align: center;
         align-self: center;
   }
+  .img img {
+    width: 200px;
+    height: 300px;
+  }
+  .i {
+    font-size: 0.8em;
+    z-index: 3;
+    position: absolute;
+    bottom: 5%;
+    text-align: center;
+    left: 15%;
+  }
   h1 {
     font-size: 2em;
   }
