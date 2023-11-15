@@ -477,7 +477,7 @@ a {
 
 .brandImg {
   width: 55%;
-  height: 50%;
+  height: 65%;
 }
 
 .brandBox h4 {
@@ -726,6 +726,35 @@ a {
   background-color: #fdff00;
 }
 
+@media (max-width: 1400px) {
+  .img {
+    margin-top: 150px;
+    padding-left: 105%;
+    position: relative;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .nav {
+    position: absolute;
+    left: 40px;
+    margin-left: -20px;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    z-index: 50;
+    top: 150px;
+    margin-bottom: 20px;
+  }
+  .nav ul {
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
+    position: absolute;
+    left: 40px;
+    z-index: 50;
+    margin-left: -20px;
+  }
+}
 @media (max-width: 1200px) {
   .header {
     display: -webkit-box;
@@ -779,11 +808,17 @@ a {
     z-index: 50;
     margin-left: -10px;
   }
+  h4 {
+    margin-bottom: 30px;
+  }
+  .button {
+    margin-top: -20px;
+  }
   .privacy {
     margin-top: 100px;
   }
   .note {
-    margin-top: 50px;
+    margin-top: 80px;
   }
 }
 @media (max-width: 992px) {
@@ -830,6 +865,18 @@ a {
     left: -10px;
     z-index: 50;
     margin-left: -10px;
+  }
+  .brandImg {
+    margin: 0 auto;
+    margin-left: 15px;
+    width: 80%;
+    height: 80%;
+  }
+  h4 {
+    margin-bottom: 30px;
+  }
+  .button {
+    margin-top: -20px;
   }
   .productsBox {
     display: -webkit-box;
@@ -899,6 +946,8 @@ a {
             flex-direction: column;
   }
   .row .brandImg {
+    margin: 0 auto;
+    margin-left: 10px;
     width: 90%;
     height: 80%;
   }
@@ -910,7 +959,7 @@ a {
     margin-top: 20px;
   }
   .note {
-    margin-top: 90px;
+    margin-top: 100px;
   }
   .backButton {
     margin: 42%;
@@ -997,6 +1046,16 @@ a {
   h1 {
     font-size: 2em;
   }
+  .contact h2, .about h2 {
+    margin-left: -60px;
+  }
+  .brandBox h4 {
+    font-size: 1em;
+    margin-left: -10px;
+  }
+  .button {
+    margin-left: -50px;
+  }
   .img {
     margin-top: 150px;
     padding-left: 30%;
@@ -1042,7 +1101,7 @@ a {
     margin-left: -10px;
   }
   .note {
-    margin-top: 80px;
+    margin-top: 120px;
   }
   .privacy {
     font-size: 1.5em;
