@@ -6,15 +6,17 @@
         position: relative;
     }
     .nav {
-        left: 10px;
-        margin-left: 10px;
+        left: -10px;
+        margin-left: -10px;
         justify-content: left;
+        margin-bottom: 50px;
     }
     .nav ul {
         justify-content: left;
         position: absolute;
-        left: 10px;
-        margin-left: 10px;
+        left: -10px;
+        margin-left: -10px;
+        margin-bottom: 50px;
     }
 
     .img {
@@ -24,18 +26,20 @@
         align-self: center;
     }
 
-
     .privacy {
         margin-top: 100px;
     }
 
+    .note {
+        margin-top: 50px;
+    }
    
 }
 
 @media(max-width: 1000px) {
     .productsBox {
         display: flex;
-        margin-top: 180px;
+        margin-top: 50px;
 
         h3 {
             font-size: 1.5em;
@@ -49,11 +53,15 @@
 
 @media(max-width: 767px) {
 
+    .note {
+        margin-top: 90px;
+    }
+
     .productsBox {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 180px;
+        margin-top: 50px;
 
         h3 {
             font-size: 1em;
@@ -134,15 +142,19 @@
     
 
     .nav {
-        left: 10px;
-        margin-left: 10px;
+        left: -10px;
+        margin-left: -10px;
         justify-content: left;
     }
     .nav ul {
         justify-content: left;
         position: absolute;
-        left: 10px;
-        margin-left: 10px;
+        left: -10px;
+        margin-left: -10px;
+    }
+
+    .note {
+        margin-top: 80px;
     }
 
     .privacy {
@@ -161,14 +173,14 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 180px;
+        margin-top: 50px;
 
         h3 {
             font-size: 1em;
         }
 
         p {
-            font-size: .5em;
+            font-size: .7em;
         }
     }
 }
