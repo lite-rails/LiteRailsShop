@@ -814,6 +814,9 @@ a {
   .button {
     margin-top: -20px;
   }
+  .button:active, .button:hover, .button:focus {
+    margin-top: -20px;
+  }
   .privacy {
     margin-top: 100px;
   }
@@ -876,6 +879,9 @@ a {
     margin-bottom: 30px;
   }
   .button {
+    margin-top: -20px;
+  }
+  .button:active, .button:hover, .button:focus {
     margin-top: -20px;
   }
   .productsBox {
@@ -956,6 +962,9 @@ a {
     margin: 50px;
   }
   .row .button {
+    margin-top: 20px;
+  }
+  .row .button:active, .row .button:hover, .row .button:focus {
     margin-top: 20px;
   }
   .note {
@@ -1054,6 +1063,9 @@ a {
     margin-left: -10px;
   }
   .button {
+    margin-left: -50px;
+  }
+  .button:active, .button:hover, .button:focus {
     margin-left: -50px;
   }
   .img {
