@@ -87,6 +87,10 @@
         margin-top: -20px;
     }
 
+    .button:active, .button:hover, .button:focus {
+        margin-top: -20px;
+    }
+
     .privacy {
         margin-top: 100px;
     }
@@ -159,6 +163,10 @@
     }
 
     .button {
+        margin-top: -20px;
+    }
+
+    .button:active, .button:hover, .button:focus {
         margin-top: -20px;
     }
 
@@ -245,6 +253,11 @@
 
         .button {
             margin-top: 20px;
+        }
+
+        .button:active, .button:hover, .button:focus {
+            margin-top: 20px;
+            
         }
     }
 
@@ -348,6 +361,9 @@
     .button {
         margin-left: -50px;
     }
+
+    .button:active, .button:hover, .button:focus {
+        margin-left: -50px;
 
     .img {
         margin-top: 150px;
