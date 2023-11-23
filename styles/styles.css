@@ -1165,3 +1165,12 @@ a {
     font-size: 0.6em;
   }
 }
+@media (max-width: 475.98px) {
+  .img {
+    margin-top: 150px;
+    padding-left: 20%;
+    position: relative;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+}
