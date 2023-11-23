@@ -370,7 +370,7 @@ ol, ul {
       -ms-flex-pack: end;
           justify-content: flex-end;
   margin-top: 30px;
-  margin-left: 650%;
+  margin-left: 220%;
 }
 
 .nav li a {
@@ -382,7 +382,7 @@ ol, ul {
 
 .img {
   margin-top: 50px;
-  padding-left: 110%;
+  padding-left: 50%;
   position: relative;
   -ms-flex-item-align: center;
       align-self: center;
@@ -405,6 +405,7 @@ ol, ul {
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 90px;
+  width: 100%;
 }
 
 .i {
@@ -414,7 +415,7 @@ ol, ul {
   position: absolute;
   bottom: 3.5%;
   text-align: center;
-  left: 125%;
+  left: 60%;
   padding: 5px;
 }
 
@@ -425,7 +426,7 @@ ol, ul {
   position: absolute;
   bottom: 3%;
   text-align: center;
-  left: 158%;
+  left: 78%;
   padding: 5px;
 }
 
@@ -459,7 +460,7 @@ a {
 }
 
 .rails {
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 .brandBox {
@@ -729,7 +730,7 @@ a {
 @media (max-width: 1399.98px) {
   .img {
     margin-top: 150px;
-    padding-left: 105%;
+    padding-left: 40%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
@@ -770,24 +771,29 @@ a {
   }
   .img {
     margin-top: 150px;
-    padding-left: 30%;
+    padding-left: 35%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
+  }
+  .img img {
+    width: 65%;
+    height: 60%;
+    padding-bottom: 90px;
   }
   .i {
     font-size: 1.5em;
     position: absolute;
     bottom: 5%;
     text-align: center;
-    left: 40%;
+    left: 45%;
   }
   .iB {
     font-size: 2em;
     position: absolute;
     bottom: 4.5%;
     text-align: center;
-    left: 54%;
+    left: 60%;
   }
   .nav {
     position: absolute;
