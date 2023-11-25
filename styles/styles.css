@@ -322,7 +322,7 @@ h4 {
 }
 
 p {
-  font-family: "Explora", cursive;
+  font-family: "Roboto", sans-serif;
   color: whitesmoke;
   font-size: 30px;
   line-height: 1.7;
@@ -640,7 +640,7 @@ a {
   background-color: #080808;
   color: #fdff00;
   border: 2px solid #fdff00;
-  font-family: "Explora", cursive;
+  font-family: "Roboto", sans-serif;
   padding: 10px 30px;
   font-size: 1em;
 }
@@ -699,7 +699,7 @@ a {
 
 .subheading {
   text-align: start;
-  font-family: "Explora", cursive;
+  font-family: "Roboto", sans-serif;
   margin: 20px 0;
 }
 
@@ -715,7 +715,7 @@ a {
   background-color: #080808;
   color: #fdff00;
   border: 2px solid #fdff00;
-  font-family: "Explora", cursive;
+  font-family: "Roboto", sans-serif;
   padding: 10px 30px;
   font-size: 1em;
 }
