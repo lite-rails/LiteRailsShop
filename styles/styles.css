@@ -382,7 +382,8 @@ ol, ul {
 
 .img {
   margin-top: 50px;
-  padding-left: 50%;
+  left: 30%;
+  padding-left: 10%;
   position: relative;
   -ms-flex-item-align: center;
       align-self: center;
@@ -404,7 +405,7 @@ ol, ul {
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
   width: 100%;
 }
 
@@ -415,7 +416,7 @@ ol, ul {
   position: absolute;
   bottom: 3.5%;
   text-align: center;
-  left: 60%;
+  left: 35%;
   padding: 5px;
 }
 
@@ -426,7 +427,7 @@ ol, ul {
   position: absolute;
   bottom: 3%;
   text-align: center;
-  left: 78%;
+  left: 60%;
   padding: 5px;
 }
 
@@ -730,10 +731,13 @@ a {
 @media (max-width: 1399.98px) {
   .img {
     margin-top: 150px;
-    padding-left: 40%;
+    margin-left: -10%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
+  }
+  .img img {
+    margin-bottom: 10px;
   }
   .nav {
     position: absolute;
@@ -755,6 +759,9 @@ a {
     z-index: 50;
     margin-left: -20px;
   }
+  .rails {
+    padding-top: 10px;
+  }
 }
 @media (max-width: 1199.98px) {
   .header {
@@ -771,13 +778,13 @@ a {
   }
   .img {
     margin-top: 150px;
-    padding-left: 30%;
+    left: 15%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
   }
   .img img {
-    width: 65%;
+    width: 70%;
     height: 60%;
   }
   .i {
@@ -785,14 +792,14 @@ a {
     position: absolute;
     bottom: 5%;
     text-align: center;
-    left: 45%;
+    left: 30%;
   }
   .iB {
     font-size: 2em;
     position: absolute;
     bottom: 4.5%;
     text-align: center;
-    left: 60%;
+    left: 45%;
   }
   .nav {
     position: absolute;
@@ -832,28 +839,28 @@ a {
 @media (max-width: 991.98px) {
   .img {
     margin-top: 130px;
-    padding-left: 28%;
+    left: 18%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
   }
   .img img {
-    width: 400px;
-    height: 660px;
+    width: 60%;
+    height: 520px;
   }
   .i {
     font-size: 1.5em;
     position: absolute;
-    bottom: 5%;
+    bottom: 4%;
     text-align: center;
-    left: 42%;
+    left: 23%;
   }
   .iB {
     font-size: 2em;
     position: absolute;
-    bottom: 4%;
+    bottom: 3.5%;
     text-align: center;
-    left: 64%;
+    left: 40%;
   }
   .nav {
     position: absolute;
@@ -908,28 +915,28 @@ a {
 @media (max-width: 767.98px) {
   .img {
     margin-top: 130px;
-    padding-left: 28%;
+    left: 18%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
   }
   .img img {
-    width: 300px;
-    height: 500px;
+    width: 70%;
+    height: 520px;
   }
   .i {
     font-size: 0.8em;
     position: absolute;
     bottom: 5%;
     text-align: center;
-    left: 40%;
+    left: 30%;
   }
   .iB {
     font-size: 1.2em;
     position: absolute;
     bottom: 4%;
     text-align: center;
-    left: 55%;
+    left: 45%;
   }
   .nav {
     position: absolute;
@@ -1075,14 +1082,14 @@ a {
   }
   .img {
     margin-top: 150px;
-    padding-left: 27%;
+    left: 17%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
   }
   .img img {
-    width: 250px;
-    height: 380px;
+    width: 70%;
+    height: 420px;
     padding-bottom: 70px;
     padding-top: 20px;
   }
@@ -1091,14 +1098,14 @@ a {
     position: absolute;
     bottom: 8%;
     text-align: center;
-    left: 40%;
+    left: 27%;
   }
   .iB {
     font-size: 1.1em;
     position: absolute;
     bottom: 7%;
     text-align: center;
-    left: 60%;
+    left: 45%;
   }
   .nav {
     position: absolute;
@@ -1168,9 +1175,28 @@ a {
 @media (max-width: 475.98px) {
   .img {
     margin-top: 150px;
-    padding-left: 20%;
+    padding-left: 25%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
+    padding-bottom: -10px;
+  }
+  .img img {
+    height: 360px;
+    width: 100%;
+  }
+  .i {
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 8%;
+    text-align: center;
+    left: 45%;
+  }
+  .iB {
+    font-size: 1.1em;
+    position: absolute;
+    bottom: 7%;
+    text-align: center;
+    left: 66%;
   }
 }
