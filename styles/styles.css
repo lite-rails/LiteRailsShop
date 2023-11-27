@@ -704,7 +704,8 @@ a {
 
 .privacy {
   text-align: center;
-  margin: 180px 0;
+  margin-top: 180px;
+  margin-bottom: 80px;
   color: #fdff00;
   font-family: "Dancing Script", cursive;
   font-size: 4em;
@@ -849,7 +850,7 @@ a {
 }
 @media (max-width: 991.98px) {
   .img {
-    margin-top: 130px;
+    margin-top: 250px;
     left: 18%;
     position: relative;
     -ms-flex-item-align: center;
@@ -892,6 +893,9 @@ a {
     z-index: 50;
     margin-left: -10px;
   }
+  .privacy {
+    margin-top: 250px;
+  }
   .products {
     margin-top: 30%;
   }
@@ -928,7 +932,7 @@ a {
 }
 @media (max-width: 767.98px) {
   .img {
-    margin-top: 130px;
+    margin-top: 250px;
     left: 18%;
     position: relative;
     -ms-flex-item-align: center;
@@ -1098,7 +1102,7 @@ a {
     margin-left: -50px;
   }
   .img {
-    margin-top: 150px;
+    margin-top: 250px;
     left: 17%;
     position: relative;
     -ms-flex-item-align: center;
@@ -1194,7 +1198,7 @@ a {
 }
 @media (max-width: 475.98px) {
   .img {
-    margin-top: 150px;
+    margin-top: 250px;
     padding-left: 10%;
     position: relative;
     -ms-flex-item-align: center;
