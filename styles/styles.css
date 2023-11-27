@@ -299,12 +299,6 @@ body {
   margin: 0 auto;
 }
 
-h1 {
-  font-family: "Dancing Script", cursive;
-  color: whitesmoke;
-  font-size: 5em;
-}
-
 h2 {
   font-family: "Playfair Display", serif;
   color: #fdff00;
@@ -358,6 +352,17 @@ ol, ul {
   margin-top: 3%;
 }
 
+.logo {
+  position: relative;
+}
+.logo img {
+  position: absolute;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  height: 100px;
+}
+
 .nav {
   position: absolute;
   left: -10px;
@@ -366,7 +371,7 @@ ol, ul {
       -ms-flex-pack: left;
           justify-content: left;
   z-index: 50;
-  top: 150px;
+  top: 120px;
 }
 
 .nav ul {
@@ -376,7 +381,7 @@ ol, ul {
   position: absolute;
   left: 20px;
   z-index: 50;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 30px;
 }
 
@@ -523,7 +528,7 @@ a {
 }
 
 .products {
-  margin-top: 10%;
+  margin-top: 20%;
   margin-bottom: 10%;
 }
 
@@ -699,7 +704,7 @@ a {
 
 .privacy {
   text-align: center;
-  margin: 80px 0;
+  margin: 180px 0;
   color: #fdff00;
   font-family: "Dancing Script", cursive;
   font-size: 4em;
@@ -815,7 +820,7 @@ a {
         -ms-flex-pack: left;
             justify-content: left;
     z-index: 50;
-    top: 100px;
+    top: 80px;
   }
   .nav ul {
     -webkit-box-pack: left;
@@ -886,6 +891,9 @@ a {
     left: -10px;
     z-index: 50;
     margin-left: -10px;
+  }
+  .products {
+    margin-top: 30%;
   }
   .brandImg {
     margin: 0 auto;
@@ -986,10 +994,13 @@ a {
     margin-top: 20px;
   }
   .note {
-    margin-top: 100px;
+    margin-top: 150px;
   }
   .backButton {
     margin: 42%;
+  }
+  .products {
+    margin-top: 40%;
   }
   .productsBox {
     display: -webkit-box;
@@ -1121,7 +1132,7 @@ a {
         -ms-flex-pack: left;
             justify-content: left;
     z-index: 50;
-    top: 40px;
+    top: 60px;
   }
   .nav ul {
     -webkit-box-pack: left;
@@ -1132,8 +1143,11 @@ a {
     z-index: 50;
     margin-left: -10px;
   }
+  .products {
+    margin-top: 50%;
+  }
   .note {
-    margin-top: 120px;
+    margin-top: 150px;
   }
   .privacy {
     font-size: 1.5em;
@@ -1204,5 +1218,11 @@ a {
     bottom: 7%;
     text-align: center;
     left: 52%;
+  }
+  .products {
+    margin-top: 50%;
+  }
+  .note {
+    margin-top: 200px;
   }
 }
