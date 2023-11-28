@@ -1,3 +1,33 @@
+@media(max-width: 1919.98px) {
+    .logo {
+        position: relative;
+        img {
+            position: absolute;
+            justify-content: flex-start;
+            height: 500px;
+            margin-left: 90px;
+        }
+    }
+
+    .nav {
+        position: absolute;
+        left: -10px;
+        margin-left: -10px;
+        justify-content: left;
+        z-index: 50;
+        top: 150px
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: 20px;
+        z-index: 50;
+        margin-left: 30px;
+    }
+    
+}
+    
+
 @media(max-width: 1399.98px) {
     .img {
         margin-top: 150px;
@@ -30,6 +60,16 @@
         padding-top: 10px;
     }
 
+    
+    .logo {
+        position: relative;
+        img {
+            position: absolute;
+            justify-content: flex-start;
+            height: 500px;
+        }
+    }
+    
 
 
 
