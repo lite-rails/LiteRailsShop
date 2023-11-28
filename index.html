@@ -14,13 +14,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Literata:opsz@7..72&display=swap" rel="stylesheet">   
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  
 </head>
 <body>
     <header class="wrapper">
         <div class="header">
+            <div class="logo">
+                <img src="./assets/LR LOGO-06-06.png" alt="The lite Rails Logo; the header." />
+            </div>
             <div>
-                <h1>LiteRails</h1>
                 <div class="img">
                     <img src="./assets/Lite Rails logo_page-0001.jpg" alt="The lite Rails Logo; the lightbulb." />
                     <div class="row">
@@ -70,9 +72,9 @@
         <section class="wrapper about">
             <div id="about" class="about">
                 <h2>About</h2>
-                <p>LiteRails was established in 2020 at the beginning of the Covid-19 Pandemic.
-                    They are a Canadian Company founded by Craig Monteith, Welder and Fabricator with over 10 years experience; that supplies custom rails for skaters at home.
-                    Additionally LiteRails is immersed in the skater community; creating and donating rails for skateparks, competitions and D.I.Y. spots.
+                <p>LiteRails was established in 2020.
+                    They are a Canadian Company founded by Craig Monteith, Welder / Fabricator  with over 10 years experience and Social Media Conglomerate; that supplies custom rails for skaters at home.
+                    Additionally, LiteRails is immersed in the skater community; creating and donating rails for skateparks, competitions and D.I.Y. spots.
                 </p>
 
 
@@ -88,38 +90,41 @@
                          method="POST"
                          enctype="multipart/form-data"
                     >
-                         <div class="groupForm" id="contact">
-                              <label class="formLabel" for="name">Name</label>
-                              <input id="name" class="field" type="text" placeholder="Your Name" required>
-                         </div>
-                         <div class="groupForm">
-                              <label class="formLabel" for="email"> Your Email:</label>
-                              <input id="email" class="field" type="email" placeholder="Email Address" name="email" required>
-                         </div>
-                         <div class="groupForm">
-                            <label class="formLabel" for="address"> Your Address:</label>
-                            <input id="address" class="field" type="text" placeholder="Shipping Address" name="address" required>
-                        </div>
-                         <div class="groupForm">
-                              <label class="formLabel" for="message">Message</label>
-                              <textarea id="message" class="message" placeholder="Your Message" name="message" cols="30"
-                              rows="10" required></textarea>
-                         </div>
-                         <div class="column">
-                            <div class="rows">
-                                <input type="checkbox" required>
-                                <p>I agree to the</p>
+                    <div class="groupForm" id="contact">
+                        <label class="formLabel" for="name">Name</label>
+                        <input id="name" class="field" type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="groupForm">
+                        <label class="formLabel" for="email"> Your Email:</label>
+                        <input id="email" class="field" type="email" placeholder="Email Address" name="email" required>
+                    </div>
+                    <div class="groupForm">
+                        <label class="formLabel" for="address"> Your Address:</label>
+                        <input id="address" class="field" type="text" placeholder="Shipping Address" name="address" required>
+                    </div>
+                    <div class="groupForm">
+                        <label class="formLabel" for="message">Message</label>
+                        <textarea id="message" class="message" placeholder="Your Message" name="message" cols="30"
+                        rows="10" required></textarea>
+                    </div>
+                    <div class="column">
+                        <div class="rows">
+                            <input type="checkbox" required>
+                            <div class="words">
+                                <p class="words">I agree to the</p>
                                 <a href="./privacyPolicy.html">Privacy Policy</a>
-                            </div>
-                            <div class="rows">
-                                <input type="checkbox" required>
+                            </div> 
+                        </div>
+                        <div class="rows">
+                            <input type="checkbox" required>
+                            <div class="words">
                                 <p>I agree to the</p>
-                                <a href="./termsConditions.html">Terms & Conditions</a>
+                            <a href="./termsConditions.html">Terms & Conditions</a>
                             </div>
                         </div>
-                         <button class="link" type="submit">Send</button>
-                    </form>
-
+                    </div>
+                    <button class="link" type="submit">Send</button>
+                </form>
             </div>
         </section>
 

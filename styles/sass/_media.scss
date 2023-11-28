@@ -1,0 +1,530 @@
+@media(max-width: 1399.98px) {
+    .img {
+        margin-top: 150px;
+        margin-left: -10%;
+        position: relative;
+        align-self: center;
+        img {
+            margin-bottom: 10px;
+        }
+    }
+
+
+    .nav {
+        position: absolute;
+        left: -10px;
+        margin-left: -10px;
+        justify-content: left;
+        z-index: 50;
+        top: 150px
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: 20px;
+        z-index: 50;
+        margin-left: 30px;
+    }
+
+    .rails {
+        padding-top: 10px;
+    }
+
+
+
+
+}
+
+@media(max-width: 1199.98px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+    }
+    
+
+    .img {
+        margin-top: 150px;
+        left: 15%;
+        position: relative;
+        align-self: center;
+        img {
+            width: 70%;
+            height: 60%;
+        }
+    }
+
+    .i{
+        font-size: 1.5em; 
+        position: absolute;
+        bottom: 5%;
+        text-align: center;
+        left: 30%;
+    }
+
+    .iB{
+        font-size: 2em; 
+        position: absolute;
+        bottom: 4.5%;
+        text-align: center;
+        left: 45%;
+    }
+
+    .nav {
+        position: absolute;
+        left: -10px;
+        margin-left: -10px;
+        justify-content: left;
+        z-index: 50;
+        top: 80px
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: -10px;
+        z-index: 50;
+        margin-left: -10px;
+    }
+
+
+    h4 {
+        margin-bottom: 30px;
+    }
+
+    .button {
+        margin-top: -20px;
+    }
+
+    .button:active, .button:hover, .button:focus {
+        margin-top: -20px;
+    }
+
+    .privacy {
+        margin-top: 100px;
+    }
+
+    .note {
+        margin-top: 80px;
+    }
+   
+}
+
+@media(max-width: 991.98px) {
+
+    .img {
+        margin-top: 250px;
+        left: 18%;
+        position: relative;
+        align-self: center;
+    }
+
+
+    .img img {
+        width: 60%;
+        height: 520px;
+    }
+
+
+    .i{
+        font-size: 1.5em; 
+        position: absolute;
+        bottom: 4%;
+        text-align: center;
+        left: 23%;
+    }
+
+    .iB{
+        font-size: 2em; 
+        position: absolute;
+        bottom: 3.5%;
+        text-align: center;
+        left: 40%;
+    }
+
+
+    .nav {
+        position: absolute;
+        left: -10px;
+        margin-left: -10px;
+        justify-content: left;
+        z-index: 50;
+        top: 100px
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: -10px;
+        z-index: 50;
+        margin-left: -10px;
+    }
+
+    .privacy{
+        margin-top: 250px;
+    }
+
+    .products {
+        margin-top: 30%;
+    }
+
+
+    .brandImg {
+        margin: 0 auto;
+        margin-left: 15px;
+        width: 80%;
+        height: 80%;
+    }
+
+    h4 {
+        margin-bottom: 30px;
+    }
+
+    .button {
+        margin-top: -20px;
+    }
+
+    .button:active, .button:hover, .button:focus {
+        margin-top: -20px;
+    }
+
+    .productsBox {
+        display: flex;
+        margin-top: 50px;
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+    .backButton {
+        margin: 44%;
+    }
+}
+
+@media(max-width: 767.98px) {
+
+
+    .img {
+        margin-top: 250px;
+        left: 18%;
+        position: relative;
+        align-self: center;
+    }
+
+
+    .img img {
+        width: 70%;
+        height: 520px;
+    }
+
+
+    .i{
+        font-size: .8em; 
+        position: absolute;
+        bottom: 5%;
+        text-align: center;
+        left: 30%;
+    }
+
+    .iB{
+        font-size: 1.2em; 
+        position: absolute;
+        bottom: 4%;
+        text-align: center;
+        left: 45%;
+    }
+
+    .nav {
+        position: absolute;
+        left: -10px;
+        margin-left: -10px;
+        justify-content: left;
+        z-index: 50;
+        top: 100px
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: -10px;
+        z-index: 50;
+        margin-left: -10px;
+    }
+
+    .row {
+        flex-direction: column;
+        .brandImg {
+            margin: 0 auto;
+            margin-left: 10px;
+            width: 90%;
+            height: 80%;
+        }
+
+        h4 {
+            font-size: 1.5em;
+            margin: 50px;
+        }
+
+        .button {
+            margin-top: 20px;
+        }
+
+        .button:active, .button:hover, .button:focus {
+            margin-top: 20px;
+            
+        }
+    }
+
+    .note {
+        margin-top: 150px;
+    }
+
+    .backButton {
+        margin: 42%;
+    }
+
+    .products {
+        margin-top: 40%;
+    }
+
+    .productsBox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        h3 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: .7em;
+        }
+    }
+
+    .inventoryContainer {
+        display: flex;
+        flex-direction: column;
+        border: 3px solid $yellow;
+        margin: 10px auto;
+        width: 50%;
+        align-items: center;
+        padding: 10px;
+        img{
+            width: 100%;
+            height: 100%;
+            padding: 30px 20px;
+            align-content: center;
+            object-fit: contain;
+        }
+    
+        p {
+            align-self: center;
+        }
+        
+    }
+
+    .about {
+        p {
+            text-align: center;
+        }
+    }
+
+    input[type="checkbox"]{
+        margin: 2px;
+        width: 8px;
+        height: 8px;
+        
+    }
+
+    .words {
+        margin-top: 8px;
+        padding: 0;
+
+        p {
+            font-size: .7em;
+        }
+        a {
+            
+            font-size: .8em;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 575.98px) {
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .contact h2, .about h2 {
+        margin-left: -60px;
+    }
+
+    .brandBox h4 {
+        font-size: 1em;
+        margin-left: -10px;
+    }
+
+    .button {
+        margin-left: -50px;
+    }
+
+    .button:active, .button:hover, .button:focus {
+        margin-left: -50px;
+    }
+    .img {
+        margin-top: 250px;
+        left: 17%;
+        position: relative;
+        align-self: center;
+    }
+
+    .img img {
+        width: 80%;
+        height: 460px;
+        padding-bottom: 70px;
+        padding-top: 20px;
+    }
+
+    .i{
+        font-size: .7em; 
+        position: absolute;
+        bottom: 8%;
+        text-align: center;
+        left: 33%;
+    }
+
+    .iB{
+        font-size: 1.1em; 
+        position: absolute;
+        bottom: 7%;
+        text-align: center;
+        left: 50%;
+    }
+
+    .nav {
+        position: absolute;
+        left: -10px;
+        margin-left: -10px;
+        justify-content: left;
+        z-index: 50;
+        top: 60px
+    }
+    .nav ul {
+        justify-content: left;
+        position: absolute;
+        left: -10px;
+        z-index: 50;
+        margin-left: -10px;
+
+    }
+
+    .products {
+        margin-top: 50%;
+    }
+
+    .note {
+        margin-top: 150px;
+    }
+
+    .privacy {
+        font-size: 1.8em;
+    }
+
+    .subheading {
+        font-size: 1em;
+    }
+
+    .text {
+        font-size: .7em;
+    }
+
+    .backButton {
+        margin: 38%;
+    }
+
+    .productsBox {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 50px;
+
+        h3 {
+            font-size: 1em;
+        }
+
+        p {
+            font-size: .7em;
+        }
+    }
+
+    input[type="checkbox"]{
+        margin: 2px 0;
+        width: 8px;
+        height: 8px;
+        box-shadow: none;
+        
+    }
+
+    .words {
+        margin-top: 10px;
+        padding: 0;
+        font-size: .6em;
+        
+    }
+}
+
+@media (max-width: 475.98px) {
+
+    .img {
+        margin-top: 250px;
+        padding-left: 10%;
+        position: relative;
+        align-self: center;
+        padding-bottom: -10px;
+        img {
+            height: 400px;
+            width: 80%;
+        }
+    }
+
+
+    .i{
+        font-size: .7em; 
+        position: absolute;
+        bottom: 8%;
+        text-align: center;
+        left: 28%;
+    }
+
+    .iB{
+        font-size: 1.1em; 
+        position: absolute;
+        bottom: 7%;
+        text-align: center;
+        left: 52%;
+    }
+
+    .products {
+        margin-top: 50%;
+    }
+
+    .note {
+        margin-top: 200px;
+    }
+}
+

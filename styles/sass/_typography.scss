@@ -1,5 +1,5 @@
 $headerFont: 'Dancing Script', cursive;
-$baseFont: 'Explora', cursive;
+$baseFont: 'Roboto', sans-serif;
 $captionFont: 'Playfair Display', serif;
 $yellow: #fdff00;
 $white: whitesmoke;
@@ -26,11 +26,11 @@ body {
 }
 
 
-h1 {
-    font-family: $headerFont;
-    color: $white;
-    font-size: 5em
-}
+// h1 {
+//     font-family: $headerFont;
+//     color: $white;
+//     font-size: 5em
+// }
 
 h2 {
     font-family: $captionFont;
