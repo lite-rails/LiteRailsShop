@@ -37,6 +37,8 @@
   
 }
 
+
+
 .banner {
     background-color: $yellow;
     margin: 40% -10%;
@@ -53,5 +55,9 @@
         font-size: 1.7em;
         color: $black;
         padding-bottom: 3%;
+    }
+
+    .note {
+        margin-top: -50%;
     }
 }

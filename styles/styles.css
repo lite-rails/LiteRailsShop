@@ -591,6 +591,9 @@ a {
   color: #080808;
   padding-bottom: 3%;
 }
+.banner .note {
+  margin-top: -50%;
+}
 
 .contact {
   margin-top: 10%;
