@@ -575,6 +575,23 @@ a {
   font-weight: bolder;
 }
 
+.banner {
+  background-color: #fdff00;
+  margin: 40% -10%;
+}
+.banner h4 {
+  font-size: 2em;
+  padding-top: 3%;
+  text-align: center;
+  color: #080808;
+  font-weight: bolder;
+}
+.banner p {
+  font-size: 1.7em;
+  color: #080808;
+  padding-bottom: 3%;
+}
+
 .contact {
   margin-top: 10%;
 }
@@ -899,6 +916,9 @@ a {
   .products {
     margin-top: 30%;
   }
+  .note {
+    margin-top: 20%;
+  }
   .brandImg {
     margin: 0 auto;
     margin-left: 15px;
@@ -998,7 +1018,7 @@ a {
     margin-top: 20px;
   }
   .note {
-    margin-top: 150px;
+    margin-top: 20%;
   }
   .backButton {
     margin: 42%;
@@ -1151,7 +1171,7 @@ a {
     margin-top: 50%;
   }
   .note {
-    margin-top: 150px;
+    margin-top: 30%;
   }
   .privacy {
     font-size: 1.8em;
@@ -1226,8 +1246,24 @@ a {
   .products {
     margin-top: 50%;
   }
+  .banner {
+    margin-top: 70%;
+    background-color: #fdff00;
+  }
+  .banner h4 {
+    font-size: 1.5em;
+    padding-top: 3%;
+    text-align: center;
+    color: #080808;
+    font-weight: bolder;
+  }
+  .banner p {
+    font-size: 1em;
+    color: #080808;
+    padding-bottom: 3%;
+  }
   .note {
-    margin-top: 200px;
+    margin-top: 40%;
   }
 }
 @media (max-width: 365.98px) {
@@ -1264,7 +1300,23 @@ a {
     margin-top: 50%;
   }
   .note {
-    margin-top: 200px;
+    margin-top: 20%;
+  }
+  .banner {
+    margin-top: 90%;
+    background-color: #fdff00;
+  }
+  .banner h4 {
+    font-size: 1.5em;
+    padding-top: 3%;
+    text-align: center;
+    color: #080808;
+    font-weight: bolder;
+  }
+  .banner p {
+    font-size: 1em;
+    color: #080808;
+    padding-bottom: 3%;
   }
   .formLabel {
     font-size: 0.9em;
@@ -1295,5 +1347,15 @@ a {
     margin-top: 10px;
     padding: -10px;
     font-size: 0.5em;
+  }
+  footer .owner, footer p {
+    font-size: 1em;
+  }
+  footer p {
+    font-size: 0.7em;
+    text-align: center;
+  }
+  footer a {
+    font-size: 0.8em;
   }
 }

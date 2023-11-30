@@ -167,6 +167,10 @@
         margin-top: 30%;
     }
 
+    .note {
+        margin-top: 20%;
+    }
+
 
     .brandImg {
         margin: 0 auto;
@@ -279,7 +283,7 @@
     }
 
     .note {
-        margin-top: 150px;
+        margin-top: 20%;
     }
 
     .backButton {
@@ -438,7 +442,7 @@
     }
 
     .note {
-        margin-top: 150px;
+        margin-top: 30%;
     }
 
     .privacy {
@@ -523,8 +527,29 @@
         margin-top: 50%;
     }
 
+
+
+    .banner {
+        margin-top: 70%;
+        background-color: $yellow;
+        
+        h4 {
+            font-size: 1.5em;
+            padding-top: 3%;
+            text-align: center;
+            color: $black;
+            font-weight: bolder;
+        }
+    
+        p {
+            font-size: 1em;
+            color: $black;
+            padding-bottom: 3%;
+        }
+    }
+
     .note {
-        margin-top: 200px;
+        margin-top: 40%;
     }
 }
 
@@ -572,9 +597,27 @@
     }
 
     .note {
-        margin-top: 200px;
+        margin-top: 20%;
     }
 
+    .banner {
+        margin-top: 90%;
+        background-color: $yellow;
+        
+        h4 {
+            font-size: 1.5em;
+            padding-top: 3%;
+            text-align: center;
+            color: $black;
+            font-weight: bolder;
+        }
+    
+        p {
+            font-size: 1em;
+            color: $black;
+            padding-bottom: 3%;
+        }
+    }
 
     .formLabel {
         font-size: .9em;
@@ -600,6 +643,24 @@
         font-size: .5em;
         
     }
+
+    footer {
+        .owner, p {
+            font-size: 1em;
+        }
+        
+        p {
+            font-size: .7em;
+            text-align: center;
+        }
+        
+        a {
+            font-size: .8em;
+        }
+
+    }
+
+    
 }
 
 
