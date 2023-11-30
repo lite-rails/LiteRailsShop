@@ -300,17 +300,17 @@ body {
 }
 
 h2 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   color: #fdff00;
 }
 
 h3 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   color: #fdff00;
 }
 
 h4 {
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   color: #fdff00;
   font-weight: 300;
 }
@@ -324,7 +324,7 @@ p {
 
 a {
   text-decoration: none;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   color: #fdff00;
   font-size: 1em;
 }
@@ -620,7 +620,7 @@ a {
 .contact .column .rows p {
   font-size: 1em;
   color: #fdff00;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   padding: 0 7px;
   margin-top: -5px;
 }
@@ -677,7 +677,7 @@ a {
 }
 .groupForm label {
   text-transform: uppercase;
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
   color: #fdff00;
   letter-spacing: 1.5px;
   padding: 10px 0;
@@ -707,7 +707,7 @@ a {
   margin-top: 180px;
   margin-bottom: 80px;
   color: #fdff00;
-  font-family: "Dancing Script", cursive;
+  font-family: "Roboto", sans-serif;
   font-size: 4em;
 }
 
