@@ -743,7 +743,7 @@ a {
 
 @media (max-width: 1399.98px) {
   .img {
-    margin-top: 150px;
+    margin-top: 200px;
     margin-left: -10%;
     position: relative;
     -ms-flex-item-align: center;
@@ -760,7 +760,7 @@ a {
         -ms-flex-pack: left;
             justify-content: left;
     z-index: 50;
-    top: 150px;
+    top: 120px;
   }
   .nav ul {
     -webkit-box-pack: left;
@@ -789,14 +789,14 @@ a {
     position: relative;
   }
   .img {
-    margin-top: 150px;
+    margin-top: 250px;
     left: 15%;
     position: relative;
     -ms-flex-item-align: center;
         align-self: center;
   }
   .img img {
-    width: 70%;
+    width: 60%;
     height: 60%;
   }
   .i {
@@ -857,8 +857,8 @@ a {
         align-self: center;
   }
   .img img {
-    width: 60%;
-    height: 520px;
+    width: 70%;
+    height: 70%;
   }
   .i {
     font-size: 1.5em;
@@ -940,7 +940,7 @@ a {
   }
   .img img {
     width: 70%;
-    height: 520px;
+    height: 70%;
   }
   .i {
     font-size: 0.8em;
@@ -1110,7 +1110,7 @@ a {
   }
   .img img {
     width: 80%;
-    height: 460px;
+    height: 80%;
     padding-bottom: 70px;
     padding-top: 20px;
   }
@@ -1206,7 +1206,7 @@ a {
     padding-bottom: -10px;
   }
   .img img {
-    height: 400px;
+    height: 80%;
     width: 80%;
   }
   .i {
@@ -1228,5 +1228,72 @@ a {
   }
   .note {
     margin-top: 200px;
+  }
+}
+@media (max-width: 365.98px) {
+  .logo img {
+    height: 80px;
+  }
+  .img {
+    margin-top: 250px;
+    padding-left: 10%;
+    position: relative;
+    -ms-flex-item-align: center;
+        align-self: center;
+    padding-bottom: -10px;
+  }
+  .img img {
+    height: 80%;
+    width: 80%;
+  }
+  .i {
+    font-size: 0.7em;
+    position: absolute;
+    bottom: 8%;
+    text-align: center;
+    left: 28%;
+  }
+  .iB {
+    font-size: 1.1em;
+    position: absolute;
+    bottom: 7%;
+    text-align: center;
+    left: 52%;
+  }
+  .products {
+    margin-top: 50%;
+  }
+  .note {
+    margin-top: 200px;
+  }
+  .formLabel {
+    font-size: 0.9em;
+  }
+  input::-webkit-input-placeholder {
+    font-size: 0.8em;
+  }
+  input::-moz-placeholder {
+    font-size: 0.8em;
+  }
+  input:-ms-input-placeholder {
+    font-size: 0.8em;
+  }
+  input::-ms-input-placeholder {
+    font-size: 0.8em;
+  }
+  .field, input::placeholder, .message {
+    font-size: 0.8em;
+  }
+  input[type=checkbox] {
+    margin: 1px 0;
+    width: 5px;
+    height: 5px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .words {
+    margin-top: 10px;
+    padding: -10px;
+    font-size: 0.5em;
   }
 }
